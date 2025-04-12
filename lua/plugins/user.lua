@@ -86,4 +86,12 @@ return {
 
   -- Github Copilot
   { "github/copilot.vim" },
+
+  -- Live Server for HTML, CSS, and JS hot reload
+  {
+    "barrett-ruth/live-server.nvim",
+    build = "npm add -g live-server",
+    cmd = { "LiveServerStart", "LiveServerStop" },
+    config = true
+  }
 }
